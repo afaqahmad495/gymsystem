@@ -4,26 +4,32 @@ import { faDumbbell, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-zinc-200 text-black  md:h-[40vh]  border-t border-gray-800">
-    <div className="w-full mx-auto px-4 flex flex-col justify-between ">
+    <footer className="overflow-hidden w-full bg-[#E9ECFF] text-black  md:h-[480px]  border-t border-gray-800">
+    <div className="w-full h-full px-4 flex flex-col justify-between py-8  ">
       
-      <div className="flex flex-col md:flex-row items-center justify-between  ">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between  ">
         <FontAwesomeIcon className="text-8xl" icon={faDumbbell} />
         <p className="text-4xl font-semibold">GymSystem</p>
       </div>
-      <div className="flex flex-col md:flex-row lg:justify-between lg:items-center space-y-4 md:space-y-0 md:mt-8 md:space-x-4">
-        <div className="flex-1">
-          <h3 className="text-lg font-semibold">Contact</h3>
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 mt-4 ">
+        <div className="">
+          <h3 className="text-lg font-bold">CONTACT</h3>
+          <p>Email: info@gymsystem.com</p>
+          <p>Phone: (123) 456-7890</p>
           <p>Email: info@gymsystem.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
-        <div className="flex-1">
-          <h3 className="text-lg font-semibold">Opening Hours</h3>
+        <div className="">
+          <h3 className="text-lg font-bold">OPENING HOURS</h3>
+          <p>Mon-Fri: 6 AM - 10 PM</p>
+          <p>Sat-Sun: 8 AM - 8 PM</p>
           <p>Mon-Fri: 6 AM - 10 PM</p>
           <p>Sat-Sun: 8 AM - 8 PM</p>
         </div>
-        <div className="flex-1">
-          <h3 className="text-lg font-semibold">Social</h3>
+        <div className="">
+          <h3 className="text-lg font-bold">SOCIAL</h3>
+          <p>Facebook: /gymsystem</p>
+          <p>Instagram: @gymsystem</p>
           <p>Facebook: /gymsystem</p>
           <p>Instagram: @gymsystem</p>
         </div>

@@ -5,32 +5,33 @@ import Link from "next/link";
 import { Button } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDumbbell, faHeart } from "@fortawesome/free-solid-svg-icons";
+
 import Icon from '@mui/material/Icon';
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full text-black bg-zinc-200 dark:border-gray-800">
+    <nav className="w-full text-black bg-[#E9ECFF] dark:border-gray-800">
       <div className="mx-auto  px-4 sm:px-6 md:px-4">
         <div className="flex h-16 items-center justify-between">
           
           <div className="flex items-center justify-center gap-1 ">
             <FontAwesomeIcon className="text-4xl" icon={faDumbbell} />
-            <Link href="/" className="text-xl font-semibold text-gray-900 ">
+            <Link href="/" className="text-xl font-semibold text-gray-900 font-sans">
               GymSystem
             </Link>
           </div>
 
-          <div className="hidden md:flex md:items-center md:space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-gray-900 ">
+          <div className="hidden md:flex md:items-center md:space-x-8 font-sans">
+            <Link href="/" className="text-gray-700 hover:text-gray-900">
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-gray-900 ">
+            <Link href="/about" className="text-gray-700 hover:text-gray-900">
               About
             </Link>
-            <Link href="/reserve" className="text-zinc-800 hover:text-gray-900 ">
-              <Button variant="contained"><span className='font-semibold'>Reserve Your Spot</span></Button>
+            <Link href="/reserve" className="  ">
+              <Button variant="contained" className="bg-indigo-400! text-black!" >Reserve Your Spot</Button>
             </Link>
           </div>
 
@@ -42,8 +43,8 @@ const Navbar: React.FC = () => {
               className=" rounded-md text-gray-700 hover:bg-gray-100 dark:text-gray-800 dark:hover:bg-gray-800 transition-all"
             >
               {!open ? (
-                <div className="">
-                 <Icon fontSize="large" color="primary">+</Icon>
+                <div className="flex items-center justify-center pb-5 ml-2"> 
+                 <Icon fontSize="large" >+</Icon>
                 </div>
                 
               ) : (
