@@ -5,7 +5,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function NextArrow({ onClick }: any) {
   return (
     <div
-      className="absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer bg-black hover:bg-indigo-400 text-white p-3 rounded-full z-10 text-2xl hover:opacity-100 opacity-40 transition-all duration-300 ease-in-out "
+      className="overflow-hidden absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer bg-black hover:bg-indigo-400 text-white p-3 rounded-full z-10 text-2xl hover:opacity-100 opacity-40 transition-all duration-300 ease-in-out "
       onClick={onClick}
     >
       <FaArrowRight />
@@ -16,7 +16,7 @@ function NextArrow({ onClick }: any) {
 function PrevArrow({ onClick }: any) {
   return (
     <div
-      className="absolute left-2 top-1/2 -translate-y-1/2 cursor-pointer bg-black hover:bg-indigo-400 text-white p-3 rounded-full z-10 text-2xl hover:opacity-100 opacity-40 transition-all duration-300 ease-in-out "
+      className="overflow-hidden absolute left-2 top-1/2 -translate-y-1/2 cursor-pointer bg-black hover:bg-indigo-400 text-white p-3 rounded-full z-10 text-2xl hover:opacity-100 opacity-40 transition-all duration-300 ease-in-out "
       onClick={onClick}
     >
       <FaArrowLeft />
@@ -41,7 +41,7 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="  ">
+    <div className=" overflow-hidden  ">
       <Slider {...settings}>
         <img className="object-center shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px]" src="/images/meghan-holmes-wy_L8W0zcpI-unsplash-min.jpg" alt="Slide 1" />
         <img className="object-center shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px]" src="/images/victor-freitas-nlZTjUZX2qo-unsplash-min.jpg" alt="Slide 2" />
