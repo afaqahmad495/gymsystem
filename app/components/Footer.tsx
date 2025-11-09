@@ -7,9 +7,10 @@ const Footer: React.FC = () => {
     <footer className="overflow-hidden w-full bg-[#E9ECFF] text-black  md:h-[480px]  border-t border-gray-800">
     <div className="w-full h-full px-4 flex flex-col justify-between py-8  ">
       
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between  ">
-        <FontAwesomeIcon className="text-8xl" icon={faDumbbell} />
-        <p className="text-4xl font-semibold">GymSystem</p>
+      <div className="overflow-hidden flex flex-col  md:flex-row  md:justify-between gap-6 ">
+        <div><img className="h-[140px] " src="/images/gymlogo.svg" alt="Logo"  /></div>
+        
+        <p className="text-6xl md:text-5xl font-semibold">GymSystem</p>
       </div>
       <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 mt-4 ">
         <div className="">

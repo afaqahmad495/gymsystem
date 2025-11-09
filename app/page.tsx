@@ -1,10 +1,12 @@
+"use client";
 import { Button } from "@mui/material";
+import Slider from "./components/Slider";
 
 import Link from "next/link";
 
 
 export default function Home() {
-
+    
  
   return (
     <div className=" min-h-screen bg-zinc-50 font-sans dark:bg-black">
@@ -16,12 +18,9 @@ export default function Home() {
          </div>
         
         <div className="div1 grid grid-cols-1 md:grid-cols-3 md:flex-row">
-          <div className="col-span-2">
-            <img
-              src="/images/meghan-holmes-wy_L8W0zcpI-unsplash.jpg"
-              alt="Gym Hero"
-             className="object-center shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px] "
-            />
+          <div className="col-span-2 ">
+            <Slider />
+            
           </div>
           <div className=" bg-[#E9ECFF] text-black flex flex-col border border-zinc-500 justify-between p-4 ">
             <h2 className="text-2xl md:text-4xl font-bold ">
@@ -75,7 +74,7 @@ export default function Home() {
           
           <div className="md:w-[50%] lg:w-full">
             <img
-              src="/images/sven-mieke-Lx_GDv7VA9M-unsplash.jpg"
+              src="/images/sven-mieke-Lx_GDv7VA9M-unsplash-min.jpg"
               alt="Gym Hero"
               className="object-cover w-full h-[225px] md:h-[488] lg:h-[600px] shadow-lg"
               

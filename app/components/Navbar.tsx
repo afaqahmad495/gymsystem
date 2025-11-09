@@ -17,7 +17,8 @@ const Navbar: React.FC = () => {
         <div className="flex h-16 items-center justify-between">
           
           <div className="flex items-center justify-center gap-1 ">
-            <FontAwesomeIcon className="text-4xl" icon={faDumbbell} />
+            <img src="/images/logo.svg" alt="Logo" className="h-8" />
+            
             <Link href="/" className="text-xl font-semibold text-gray-900 font-sans">
               GymSystem
             </Link>
@@ -40,7 +41,7 @@ const Navbar: React.FC = () => {
               onClick={() => setOpen((s) => !s)}
               aria-expanded={open}
               aria-label="Toggle menu"
-              className=" rounded-md text-gray-700 hover:bg-gray-100 dark:text-gray-800 dark:hover:bg-gray-800 transition-all"
+              className=" rounded-md text-gray-700  transition-all"
             >
               {!open ? (
                 <div className="flex items-center justify-center pb-5 ml-2"> 
