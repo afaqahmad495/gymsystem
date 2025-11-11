@@ -9,8 +9,7 @@ export default function Home() {
     
  
   return (
-    <div className="overflow-hidden
-     min-h-screen bg-zinc-50 font-sans dark:bg-black">
+    <div className="overflow-hidden h-full md:min-h-screen bg-zinc-50 font-sans dark:bg-black">
       <main className="min-h-screen w-full">
          <div className="heading flex items-center justify-center w-full py-4 px-3 bg-linear-to-r bg-white font-sans text-white  shadow-md">
            <h1 className="  text-4xl md:text-6xl lg:text-8xl xl:text-10xl font-extrabold text-indigo-400 tracking-tight drop-shadow-lg">

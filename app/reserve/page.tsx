@@ -3,8 +3,8 @@ import { Button } from "@mui/material";
 
 const page = () => {
   return (
-    <div className=' '>
-      <main className='  w-full'>
+    
+      <main className='h-full  w-full'>
         <div className="heading w-full py-4 px-4 bg-linear-to-r border-t border-b border-zinc-400 bg-white font-sans text-white  shadow-md">
            <h1 className=" md:text-left text-2xl md:text-5xl lg:text-7xl font-extrabold text-indigo-400 tracking-tight drop-shadow-lg">
            <span className="text-black">BOOK A</span> SESSION
@@ -77,7 +77,7 @@ const page = () => {
                    
                    </div>
       </main>
-    </div>
+    
   )
 }
 
