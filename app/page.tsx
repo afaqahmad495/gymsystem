@@ -45,7 +45,7 @@ export default function Home() {
             
           </div>
 
-          <div className="order-3 md:order-2 flex flex-col justify-between border border-zinc-500 bg-[#E9ECFF] p-4">
+          <div className="order-3 md:order-2 flex flex-col justify-between border-b border-zinc-500 bg-[#E9ECFF] p-4">
             <h3 className=" md:text-left text-3xl font-extrabold overflow-hidden text-black">
               DYNAMIC OPEN GYM
             </h3>
@@ -75,14 +75,14 @@ export default function Home() {
           
           <div className="md:w-[50%] lg:w-full">
             <img
-              src="/images/sven-mieke-Lx_GDv7VA9M-unsplash-min.jpg"
+              src="/images/home3.jpg"
               alt="Gym Hero"
-              className="object-cover w-full h-[225px] md:h-[488] lg:h-[600px] shadow-lg"
+              className="object-cover w-full h-[225px] md:h-[488] lg:h-[600px] xl:h-[700px] shadow-lg"
               
             />
           </div>
           <div className="w-full md:w-[50%] lg:w-[40%]  bg-[#E9ECFF]   flex flex-col justify-center gap-2 md:gap-3 lg:gap-6  ">
-            <h2 className=" text-xl md:text-4xl lg:text-4xl font-bold text-black p-4">
+            <h2 className=" text-xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-black p-4">
               DISCOVER YOUR POTENTIAL
             </h2>
               <hr className="text-zinc-500" />

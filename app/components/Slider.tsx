@@ -43,9 +43,9 @@ export default function ImageSlider() {
   return (
     <div className=" overflow-hidden  ">
       <Slider {...settings}>
-        <img className="object-center shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px]" src="/images/meghan-holmes-wy_L8W0zcpI-unsplash-min.jpg" alt="Slide 1" />
-        <img className="object-center shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px]" src="/images/victor-freitas-nlZTjUZX2qo-unsplash-min.jpg" alt="Slide 2" />
-        <img className="object-center shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px]" src="/images/women1-min.jpg" alt="Slide 3" />
+        <img className="object-cover shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px] xl-h-[580px]" src="/images/meghan-holmes-wy_L8W0zcpI-unsplash-min.jpg" alt="Slide 1" />
+        <img className="object-cover shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px] xl-h-[580px]" src="/images/Reconnect section.jpg" alt="Slide 2" />
+        <img className="object-cover shadow-lg w-full h-[225px] md:h-[324px] lg:h-[480px] xl-h-[580px]" src="/images/Image.jpg" alt="Slide 3" />
       </Slider>
     </div>
   );
