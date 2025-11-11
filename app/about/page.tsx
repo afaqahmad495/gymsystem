@@ -72,7 +72,7 @@ const page = () => {
            
           <img src="/images/Reconnect section.jpg"
            alt="Reconnect section for desktop"
-           className='hidden md:block object-center  w-full  md:h-[325px] lg:h-[480px] xl:h-[580px]' />
+           className='hidden md:block object-center  w-full  md:h-[325px] lg:h-[480px] xl:h-[580px] 2xl:h-[680px]' />
          
          </div>
          <div className="flex flex-col items-center justify-center gap-4 bg-indigo-400 w-full h-[425px] md:h-[480px] ">

@@ -59,7 +59,7 @@ export default function Home() {
             <img
               src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29tYW4lMjBneW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
               alt="Gym Equipment"
-              className="object-cover shadow-lg w-full h-[479px] md:h-[340px] lg:h-[479px]"
+              className="object-cover shadow-lg w-full h-[479px] md:h-[340px] lg:h-[479px] xl:h-[580px]"
               
             />
           </div>
@@ -76,11 +76,11 @@ export default function Home() {
             <img
               src="/images/home3.jpg"
               alt="Gym Hero"
-              className="object-cover w-full h-[225px] md:h-[488] lg:h-[600px] xl:h-[700px] shadow-lg"
+              className="object-cover w-full h-[225px] md:h-[488] lg:h-[600px] xl:h-[700px] 2xl:h-[800px] shadow-lg"
               
             />
           </div>
-          <div className="w-full md:w-[50%] lg:w-[40%]  bg-[#E9ECFF]   flex flex-col justify-center gap-2 md:gap-3 lg:gap-6  ">
+          <div className="w-full md:w-[50%] lg:w-[40%]  bg-[#E9ECFF]   flex flex-col justify-center gap-2 md:gap-3 lg:gap-8 xl-gap-10   ">
             <h2 className=" text-xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-black p-4">
               DISCOVER YOUR POTENTIAL
             </h2>
@@ -104,7 +104,7 @@ export default function Home() {
              
               </div>
               <hr className="text-zinc-500" />
-              <div className="overflow-hidden mt-4 md:mt-10 ">
+              <div className="overflow-hidden mt-4 md:mt-10 lg:mt-18">
                 <p className="p-4 ">VIEW CLASSES</p>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
         
         
-          <div className="flex flex-col items-center justify-center gap-4 bg-indigo-400 w-full h-[425px] md:h-[480px] ">
+          <div className="flex flex-col items-center justify-center gap-4 bg-indigo-400 w-full h-[425px] md:h-[480px] lg:h-[580px] xl:h-[680px] ">
            
             <p className=" text-black">
               WHAT WE BELIVE IN
